@@ -1,0 +1,78 @@
+body {
+	background-image: url("https://images6.alphacoders.com/451/thumb-1920-451028.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.dadu {
+	width: 200px;
+	height: 200px;
+	background-color: #333;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	margin: 10px;
+	box-shadow: 5px 5px 7px #000;
+	color: red;
+}
+
+#angka {
+	font-size: 150px;
+	text-shadow: 2px 2px 5px #000;
+}
+
+.button-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.button-area button {
+	border: 1px solid rgb(54, 54, 54);
+	background-color: #5dca88;
+	padding: 10px 50px;
+	margin: 10px;
+	cursor: pointer;
+	box-shadow: 0 7px #1a7940;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+button:active {
+	position: relative;
+	top: 7px;
+	box-shadow: none;
+	color: #333;
+}
+
+.card	{
+	width: 400px;
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.footer {
+	font-style: italic;
+	font-size: 10px;
+	margin-top: 5px;
+	color: gray;
+}
